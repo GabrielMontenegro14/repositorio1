@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
+
+body, h1, h2, h3, p, ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #252525;
+}
+
+/* menu */
+
+.menu{
+    background: #252525;
+    padding: 20px 0;
+}
+
+.menu-container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
+}
+
+nav ul {
+    display: flex;
+    flex-flow: wrap;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    flex-flow: wrap;
+
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f5e7e7;
+    color:navy;
+    padding: 7px 13px;
+    border-radius: 9px;
+}
+
+.misturade{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.sessaocafe1 h2{
+    font-size: 50px;
+    text-decoration-line: overline;
+
+}
+
+.sessaocafe1 h3{
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+.misturade p{
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.misturade .p2{
+    padding-left: 60px;
+}
+
+.misturade #imgcafe1{
+    border-radius: 22px;
+    width: 690px;
+    margin-left: 60px;
+}
+
+.local-botafogo{
+    display: flex;
+    justify-content: center;
+}
+
+.local-botafogo p, h2, a{
+
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #252525;
+}
+
+.local-botafogo a{
+
+    padding: 10px 20px 10px 20px;
+    border: solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+#ver-mapa{
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+
+.local-botafogo img{
+    width: 650px;
+
+}
+
+.sessaocafe1 h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    size: 30px;
+}
+
+.misturade #imgcafe1{
+    margin-right: 10px;
+    
+}
+
+.sessaocafe1{  
+    margin-bottom: 120px;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+
+.sessaocafe1 img{
+    border-radius: 10px;
+}
+
+.main-content{
+  height: 440px;
+  max-width: 100%;
+  background-image:url('assets/bg-intro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgcafe2{
+    width: 690px;
+    margin-right: 60px;
+}
+
+.main-content h2{
+  padding-top: 160px;
+  color: white;
+  font-size:40px;
+  text-align: center;
+}
+
+.main-content p{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+#locais-titulo{
+    color: black;
+    font-size: 57px;
+    text-decoration-line: overline;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.sessaocafe1 img{
+  align-items: center;
+}
+
+.color-lateral{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+
+.color-lateral .color-lateral-um, .color-lateral-dois{
+    background-color: rgb(180, 180, 128);
+    width: 25%;
+}
+
+.color-central{
+    display: inline-block;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.btn-btn{
+    color: red;
+    size: 10px 20px;
+}
+
+.botafogo-flex{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.botafogo-flex div{
+    padding: 20px;
+}
+
+.flex-iguatemi{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
